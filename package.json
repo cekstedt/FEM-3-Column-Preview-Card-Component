@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "serve-dev": "browser-sync start --server \"dev\" --files \"dev\" --browser \"chrome\"",
+    "serve-dist": "browser-sync start --server \"dist\" --files \"dist\" --browser \"chrome\"",
+    "watch-dev-css": "sass --watch src/scss/styles.scss dev/styles.css",
+    "build-dist-css": "sass --no-source-map --style=compressed src/scss/styles.scss dist/styles.css",
+    "build-dev-html": "node tools/inject-and-copy.js",
+    "watch-dev-html": "chokidar --initial ./src/index.html -c \"npm run build-dev-html\"",
+    "build-dist-html": "copyfiles -u 1 ./src/index.html dist",
+    "watch-dev-assets": "copyfiles -u 2 \"./src/assets/**/*\" dev",
+    "watch-dev-tools": "copyfiles -u 1 \"./node_modules/pixel-glass/**/*\" dev",
+    "watch-dev-design": "copyfiles \"./design/**/*\" dev",
+    "build-dist-assets": "copyfiles -u 2 \"./src/assets/**/*\" dist",
+    "watch-dev": "run-p watch-dev-*",
+    "build-dist": "run-p build-dist-*",
+    "clean-dist": "rimraf dist",
+    "clean-dev": "rimraf dev",
+    "clean": "run-p clean-*",
+    "start": "run-p watch-dev serve-dev",
+    "pre-dist": "run-s build-dist serve-dist"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "chokidar-cli": "^3.0.0",
+    "copyfiles": "^2.4.1",
+    "node-html-parser": "^5.4.2-0",
+    "npm-run-all": "^4.1.5",
+    "pixel-glass": "^1.0.13",
+    "rimraf": "^3.0.2",
+    "sass": "^1.54.4"
+  }
+ }

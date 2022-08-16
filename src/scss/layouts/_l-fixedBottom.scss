@@ -1,0 +1,14 @@
+// Layout for footer.
+
+.l-fixedBottom {
+  position: absolute;
+  text-align: center;
+  right: 0;
+  left: 0;
+  bottom: 1rem;
+
+  @media (max-height: 650px) {
+    position: static;
+    margin: 1rem 0;
+  }
+}

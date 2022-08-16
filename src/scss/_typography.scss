@@ -1,0 +1,14 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+$sans: "Outfit", sans-serif;
+
+// Page-level styles
+body {
+  font-family: $sans;
+  font-size: 18px;
+}
+
+// Typographic layout variables
+$fontWeight-thin: 300;
+$fontWeight-normal: 400;
+$fontWeight-bold: 600;

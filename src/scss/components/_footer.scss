@@ -1,0 +1,16 @@
+// Skin for footer.
+
+.attribution {
+  font-size: 11px;
+  color: $main-paragraph;
+}
+
+.attribution a {
+  color: $main-paragraph;
+}
+
+.attribution a:hover,
+.attribution a:active,
+.attribution a:focus {
+  color: $accent;
+}
