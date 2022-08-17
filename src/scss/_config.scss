@@ -1,11 +1,14 @@
 // Colors
-$main-background: hsl(217, 54%, 11%);
-$card-background: hsl(216, 50%, 16%);
-$rule: hsl(215, 32%, 27%);
-$main-heading: hsl(0, 0%, 100%);
-$main-paragraph: hsl(215, 51%, 70%);
-$accent: hsl(178, 100%, 50%);
-$accent-transparent: hsla(178, 100%, 50%, 0.5);
+$card1: hsl(31, 77%, 52%);
+$card2: hsl(184, 100%, 22%);
+$card3: hsl(179, 100%, 13%);
+$main-paragraph: hsla(0, 0%, 100%, 0.75);
+$main-background: hsl(0, 0%, 95%);
+$main-heading: $main-background;
+
+// responsive
+
+$mobile-breakpoint: 1150px;
 
 // Misc
 $borderRadius-small: 0.5rem;

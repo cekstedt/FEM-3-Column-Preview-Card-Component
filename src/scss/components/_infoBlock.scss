@@ -3,13 +3,11 @@
 
   &-header {
     display: block;
-    font-weight: $fontWeight-bold;
     font-size: 1.37rem;
   }
 
   &-subline {
     color: $main-paragraph;
-    font-weight: $fontWeight-thin;
     line-height: 1.4;
   }
 }

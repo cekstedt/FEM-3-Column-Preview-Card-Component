@@ -1,14 +1,15 @@
 // Fonts
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
-$sans: "Outfit", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+$sans: "Lexend Deca", sans-serif;
+$header: "Big Shoulders Display", sans-serif;
 
 // Page-level styles
 body {
   font-family: $sans;
-  font-size: 18px;
+  font-size: 15px;
 }
 
-// Typographic layout variables
-$fontWeight-thin: 300;
-$fontWeight-normal: 400;
-$fontWeight-bold: 600;
+h1 {
+  font-family: $header;
+}

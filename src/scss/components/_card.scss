@@ -1,0 +1,21 @@
+.card {
+  & h1 {
+    color: $main-heading;
+  }
+
+  & p {
+    color: $main-paragraph;
+  }
+
+  &1 {
+    background-color: $card1;
+  }
+
+  &2 {
+    background-color: $card2;
+  }
+
+  &3 {
+    background-color: $card3;
+  }
+}
