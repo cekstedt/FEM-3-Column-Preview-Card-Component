@@ -7,7 +7,7 @@
   left: 0;
   bottom: 1rem;
 
-  @media (max-height: 650px) {
+  @media (max-width: $mobile-breakpoint) or (max-height: 650px) {
     position: static;
     margin: 1rem 0;
   }

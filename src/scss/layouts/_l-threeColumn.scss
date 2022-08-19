@@ -6,24 +6,17 @@
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  // grid-auto-flow: column;
-  // grid-auto-columns: 1fr;
   max-width: 920px;
   height: 500px;
-  // align-items: center;
-  // justify-content: left;
+  margin: 5.5rem 1.5rem 0;
 
   @media (max-width: $mobile-breakpoint) {
+    max-width: 450px;
     grid-template-columns: 1fr;
-    // flex-direction: column-reverse;
-    // align-items: start;
-    // max-width: 40.875rem;
-    // width: 100vw;
-    // margin: 1.5rem;
+    height: auto;
   }
 
   & > * {
     padding: 3rem;
-    // flex-grow: 1;
   }
 }

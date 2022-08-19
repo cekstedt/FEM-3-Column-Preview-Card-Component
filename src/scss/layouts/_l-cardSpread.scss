@@ -14,5 +14,10 @@
   & > button {
     position: absolute;
     bottom: 3rem;
+
+    @media (max-width: $mobile-breakpoint) {
+      position: static;
+      margin-top: 1.5rem;
+    }
   }
 }
