@@ -1,11 +1,12 @@
 // Skins for card elements.
 
 .card {
-  & h1 {
+  &-header {
     color: $main-heading;
+    text-transform: uppercase;
   }
 
-  & p {
+  &-content {
     color: $main-paragraph;
   }
 

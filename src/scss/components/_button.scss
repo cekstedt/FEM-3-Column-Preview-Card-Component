@@ -2,15 +2,21 @@
 
 .button {
   font-size: 1rem;
+  text-decoration: none;
   padding: 0.825rem 1.75rem;
   background: $main-background;
   color: black;
   mix-blend-mode: screen;
+  border: 0.125rem solid transparent;
   border-radius: 9999px;
 
-  &:active {
-    background: black;
+  &:hover {
+    background: transparent;
     color: $main-background;
-    border: 2px solid white;
+    border: 0.125rem solid $main-background;
+  }
+
+  &:active {
+    border: 0.2rem solid $main-background;
   }
 }
