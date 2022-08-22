@@ -1,17 +1,18 @@
 // Three Column Layout, responsive.
 
 .l-threeColumn {
-  box-sizing: border-box;
   border-radius: $borderRadius-small;
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  max-width: 920px;
-  height: 500px;
-  margin: 5.5rem 1.5rem 0;
+  max-width: 57.5rem;
+  height: 31.25rem;
+  margin: 2.75rem 1.5rem 0;
 
   @media (max-width: $mobile-breakpoint) {
-    max-width: 450px;
+    margin-top: 5.5rem;
+    max-width: 28rem;
+    min-width: 20rem;
     grid-template-columns: 1fr;
     height: auto;
   }

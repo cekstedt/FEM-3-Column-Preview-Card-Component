@@ -1,11 +1,14 @@
-.u-inline {
-  display: inline;
+// Changes several display elements to their inline version,
+// to fix display bugs on width changing.
+
+.u-mobileBlock-parent {
+  @media (max-width: $card-width-mobile) {
+    display: inline-block;
+  }
 }
 
-.u-verticalSpace {
-  margin: 1.5rem 0 1rem 0;
-}
-
-.u-bumpRight {
-  margin-left: 0.75rem;
+.u-mobileBlock-child {
+  @media (max-width: $card-width-mobile) {
+    display: inline-flex;
+  }
 }

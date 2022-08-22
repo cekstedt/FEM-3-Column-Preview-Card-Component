@@ -2,12 +2,13 @@
 
 .l-fixedBottom {
   position: absolute;
+  display: block;
   text-align: center;
   right: 0;
   left: 0;
   bottom: 1rem;
 
-  @media (max-width: $mobile-breakpoint) or (max-height: 650px) {
+  @media (max-width: $mobile-breakpoint) or (max-height: $card-height) {
     position: static;
     margin: 1rem 0;
   }
