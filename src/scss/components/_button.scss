@@ -7,4 +7,10 @@
   color: black;
   mix-blend-mode: screen;
   border-radius: 9999px;
+
+  &:active {
+    background: black;
+    color: $main-background;
+    border: 2px solid white;
+  }
 }
