@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/cekstedt/3-column-preview-card-component)
+- Solution URL: [Github](https://github.com/cekstedt/FEM-3-Column-Preview-Card-Component)
 - Live Site URL: [Netlify](https://magenta-semolina-7afb37.netlify.app/)
 
 ## My process
