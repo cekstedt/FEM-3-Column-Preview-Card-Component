@@ -7,5 +7,7 @@
   "original": false,
   "personal": false,
   "thumbnail": "thumbnail.png",
-  "technologies": ["html", "css", "sass", "oocss"]
+  "technologies": ["html", "css", "sass", "oocss"],
+  "status": "complete",
+  "priority": "done"
 }
