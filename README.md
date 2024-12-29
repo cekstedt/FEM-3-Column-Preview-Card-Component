@@ -12,7 +12,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Built with](#built-with)
   - [How to install and run](#how-to-install-and-run)
 - [Author](#author)
-- [License](#license)
 
 ## Overview
 
