@@ -7,7 +7,7 @@
   "original": false,
   "personal": false,
   "thumbnail": "desktop-screenshot.png",
-  "technologies": ["html", "css", "sass", "oocss"],
+  "technologies": ["html", "css", "sass", "oocss", "npm-scripts"],
   "status": "complete",
   "priority": "done"
 }
