@@ -6,8 +6,8 @@
   "hosted": "https://magenta-semolina-7afb37.netlify.app/",
   "original": false,
   "personal": false,
-  "thumbnail": "desktop-screenshot.png",
+  "thumbnail": "thumbnail.png",
   "technologies": ["html", "css", "sass", "oocss", "npm-scripts"],
-  "status": "complete",
+  "complete": true,
   "priority": "done"
 }
